@@ -47,3 +47,14 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# grid to garage project files
+# original pdf and spreadsheet downloads are not committed, every url is listed in the data sources file
+data/raw/downloads/*
+!data/raw/downloads/.gitkeep
+
+# fastf1 raw cache is large, only the small cleaned f1 files are committed
+data/f1_cache/
+
+# python virtual environment for fastf1
+.venv/
